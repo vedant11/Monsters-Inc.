@@ -9,7 +9,7 @@ const CardList= ({monsters}) =>{
             monsters.map((user,i) =>
                 {    
                     return(
-                            <Card id={monsters[i].id} name={monsters[i].name} email={monsters[i].email}/>
+                            <Card key={monsters[i].id} id={monsters[i].id} name={monsters[i].name} email={monsters[i].email} username={monsters[i].username}/>
                         )
                 }
                 )
@@ -19,4 +19,4 @@ const CardList= ({monsters}) =>{
 
 };
     
-export default CardList;
+export default CardList; 

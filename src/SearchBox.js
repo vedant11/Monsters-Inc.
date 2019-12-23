@@ -1,9 +1,14 @@
 import React from 'react';
 
-const SearchBox=()=>
+const SearchBox=({searchChange})=>
 {
     return(
-        <input type="search" placeholder="search your monster" className="tc flex center mv3 bg-lightest-blue br3 ba b--green "></input>
+        <input
+            type="search" 
+            placeholder="search your monster"
+            className="tc flex center mv3 bg-lightest-blue br3 ba b--green " 
+            onChange={searchChange}>
+         </input>
     )
 }
 
