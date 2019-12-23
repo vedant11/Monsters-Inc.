@@ -1,8 +1,7 @@
 import React from 'react';
 import Card from './Card';
-import { monsters } from './monsters';
 
-const CardList= ({robots}) =>{
+const CardList= ({monsters}) =>{
 
     return(
         <div>
@@ -10,7 +9,7 @@ const CardList= ({robots}) =>{
             monsters.map((user,i) =>
                 {    
                     return(
-                            <Card id={monsters[i].id} name={monsters[i].name} email={monsters[i].name}/>
+                            <Card id={monsters[i].id} name={monsters[i].name} email={monsters[i].email}/>
                         )
                 }
                 )
