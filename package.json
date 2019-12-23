@@ -10,7 +10,6 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
     "tachyons": "^4.11.1"
-    "homepage":"https://github.com/vedant11/Monsters-Inc..git"
   },
   "scripts": {
     "start": "react-scripts start",
