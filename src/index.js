@@ -4,6 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 import App from './App';
+import './fonts/PermanentMarker-Regular.ttf'
 
 ReactDOM.render(<App/>,document.getElementById('root'));
 

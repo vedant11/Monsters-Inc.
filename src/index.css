@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(221, 156, 36), pink);
 }
-
+@font-face{
+  font-family: 'Permanent Marker';
+  src:local('Permanent Marker'),url(./fonts/PermanentMarker-Regular.ttf) format('truetype');
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#title{
+  background:linear-gradient(to right,white,rgb(15, 103, 129));
+  font-family: 'Permanent Marker';
+  color: rgb(175, 0, 0);
 }

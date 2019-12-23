@@ -23,7 +23,7 @@ onSearchChange=(event)=>{
         })
         return(
             <div>
-                <h1 className="strong tc bg-light-green pv5 ma0">Monsters,Inc.</h1>
+                <h1 id="title" className="tc bg-light-green pv5 ma0">Monsters,Inc.</h1>
                 <p className="tc">Search by name: </p>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CardList monsters={newList}/>
