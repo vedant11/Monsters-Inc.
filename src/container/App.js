@@ -28,10 +28,8 @@ class App extends Component{                    //defining the class
         const newList=monsters.filter(monster=>{                //filtering monsters list according to search keyword input
         return monster.name.toLowerCase().includes(searchField.toLowerCase())
         })
-        if(!monsters.length)                                    //in JS, 0 is false
-        {return <h1>Loading...(Check your internet connection)</h1>}
-        else{                                                   //returning arranged components 
-        return(
+        return !monsters.length?<h1>Loading...(Check your internet connection)</h1>:   //in JS, 0 is false
+        (
             <div>
                 <h1 id="title" className="tc bg-light-green pv5 ma0">Monsters,Inc.</h1>
                 <p className="tc">Search by name: </p>
@@ -43,6 +41,6 @@ class App extends Component{                    //defining the class
         );
         }
     }
-}
+
 
 export default App;
