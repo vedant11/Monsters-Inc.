@@ -17,7 +17,7 @@ code {
 }
 
 #title{
-  background:linear-gradient(to right,white,rgb(15, 103, 129));
+  background:linear-gradient(to right,rgb(221, 156, 200),rgb(15, 103, 129));
   font-family: 'Permanent Marker';
   color: rgb(175, 0, 0);
 }
