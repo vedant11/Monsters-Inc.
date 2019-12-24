@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchBox=({searchChange})=>
 {
-    return(
+    return(                                         //returning a searchbox
         <input
             type="search" 
             placeholder="Search your monster"

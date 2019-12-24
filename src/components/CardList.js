@@ -2,8 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 const CardList= ({monsters}) =>{
-
-    return(
+    return(                             // used mapping iteration to transform the array and cardList molecule is returned
         <div>
             { 
             monsters.map((user,i) =>
