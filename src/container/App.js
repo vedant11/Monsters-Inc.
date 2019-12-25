@@ -6,6 +6,7 @@ import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll'
 import { searchField } from '../Action';
 
+
 const mapStateToProps=(state)=>{
     return{
         searchField: state.searchField              //we dont need to dot up into the reducers because we have only one reducer
