@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+README by myself:
+    This is an interfaced designed using React JS native library.
+    Finally, extra editings are made using Redux (though it is not needed in this simple interface)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
