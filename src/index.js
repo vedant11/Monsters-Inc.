@@ -1,20 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux'
-import {createStore, applyMiddleware} from 'redux';
+import {createStore, applyMiddleware, combineReducers} from 'redux';
 
 import './index.css';
 import App from './container/App';
-import {searchMonsters} from './reducers'
+import {searchMonsters,requestMonsters} from './reducers'
 import 'tachyons';
 import * as serviceWorker from './serviceWorker';
-import {createLogger} from 'redux-logger'
+import {createLogger} from 'redux-logger';
+import thunkMiddleware from 'redux-thunk'
 
 import './fonts/PermanentMarker-Regular.ttf'
 
 const logger=createLogger();
+const rootReducer=combineReducers({requestMonsters,searchMonsters});
 
-const store=createStore(searchMonsters, applyMiddleware(logger));
+const store=createStore(rootReducer, applyMiddleware(thunkMiddleware,logger));
 
 ReactDOM.render(<Provider store={store}>
                     <App/>
