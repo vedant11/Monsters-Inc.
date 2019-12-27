@@ -6,7 +6,7 @@ README by myself:
     
 To initiate the project interface, clone the repo and run:
 ```bash
-npm install
+> npm install
 ```
 to load up all the modules and then:
 ```bash
