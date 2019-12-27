@@ -14,7 +14,7 @@ to load up all the modules and then:
 ```
 to start the project build
 ___
-#README by npm(create-react-app):
+# README by npm(create-react-app):
 
 
 ## Available Scripts
