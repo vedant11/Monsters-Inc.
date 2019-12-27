@@ -5,9 +5,13 @@ README by myself:
     Finally, extra editings are made using Redux (though it is not needed in this simple interface.
     
 To initiate the project interface, clone the repo and run:
->npm install
+```bash
+npm install
+```
 to load up all the modules and then:
+```bash
 > npm start 
+```
 to start the project build
 ___
 #README by npm(create-react-app):
