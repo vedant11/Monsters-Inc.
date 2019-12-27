@@ -1,8 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
 
 README by myself:
     This is an interfaced designed using React JS native library.
-    Finally, extra editings are made using Redux (though it is not needed in this simple interface)
+    Finally, extra editings are made using Redux (though it is not needed in this simple interface.
+    
+To initiate the project interface, clone the repo and run:
+>npm install
+to load up all the modules and then:
+> npm start 
+to start the project build
+___
+#README by npm(create-react-app):
 
 
 ## Available Scripts
